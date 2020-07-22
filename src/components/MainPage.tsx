@@ -5,25 +5,36 @@ import {
   PlasmicMainPage__VariantsArgs,
   PlasmicMainPage
 } from "./plasmic/copy_of_cloudflare_ip_checker/PlasmicMainPage"; // plasmic-import: IrI87iixQUu/render
+import isCloudflare from "@authentication/cloudflare-ip";
 
 interface MainPageProps {
-  // className prop is required for positioning instances of
-  // this Component
   className?: string;
-  children?: never;
+}
+
+function getStatus(value: string) {
+  try {
+    return isCloudflare(value) ? "valid" : "invalid";
+  } catch (ex) {
+    return undefined;
+  }
 }
 
 function MainPage(props: MainPageProps) {
+  const [value, setValue] = React.useState("");
   return (
     <PlasmicMainPage
-      root={
-        // className prop needs to be piped to the root element of this component
-        { className: props.className }
-      }
+      root={{
+        className: props.className
+      }}
+      input={{
+        value: value,
+        onChange: (e) => setValue(e.target.value)
+      }}
+      validationResultIcon={{
+        status: getStatus(value)
+      }}
     />
   );
 }
 
-export default MainPage as React.FunctionComponent<
-  React.ComponentProps<typeof MainPage>
->;
+export default MainPage;

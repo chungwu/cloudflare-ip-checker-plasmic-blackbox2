@@ -6,9 +6,7 @@ import {
   PlasmicInput
 } from "./plasmic/copy_of_cloudflare_ip_checker/PlasmicInput"; // plasmic-import: RGeap8xl0N4/render
 
-interface InputProps {
-  placeholder?: string;
-  focusWithin?: PlasmicInput__VariantsArgs["focusWithin"];
+interface InputProps extends React.ComponentProps<"input"> {
   // className prop is required for positioning instances of
   // this Component
   className?: string;
@@ -16,18 +14,24 @@ interface InputProps {
 }
 
 function Input(props: InputProps) {
+  const [focusWithin, setFocusWithin] = React.useState(false);
+  const { className, ...inputProps } = props;
   return (
     <PlasmicInput
       variants={{
-        focusWithin: props.focusWithin
+        focusWithin: focusWithin
       }}
       args={{
         placeholder: props.placeholder
       }}
-      root={
-        // className prop needs to be piped to the root element of this component
-        { className: props.className }
-      }
+      input={{
+        ...inputProps,
+        onBlur: () => setFocusWithin(false),
+        onFocus: () => setFocusWithin(true)
+      }}
+      root={{
+        className
+      }}
     />
   );
 }
