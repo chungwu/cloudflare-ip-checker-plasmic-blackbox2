@@ -1,0 +1,122 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "./src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+      "projectName": "Copy of Cloudflare IP Checker",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_cloudflare_ip_checker/plasmic_copy_of_cloudflare_ip_checker.css",
+      "components": [
+        {
+          "id": "IrI87iixQUu",
+          "name": "MainPage",
+          "type": "managed",
+          "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+          "renderModuleFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicMainPage.tsx",
+          "importSpec": {
+            "modulePath": "MainPage.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicMainPage.css",
+          "scheme": "blackbox"
+        },
+        {
+          "id": "RGeap8xl0N4",
+          "name": "Input",
+          "type": "managed",
+          "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+          "renderModuleFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicInput.tsx",
+          "importSpec": {
+            "modulePath": "Input.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicInput.css",
+          "scheme": "blackbox"
+        },
+        {
+          "id": "IB70_6M4C4N",
+          "name": "ValidationResultIcon",
+          "type": "managed",
+          "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+          "renderModuleFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicValidationResultIcon.tsx",
+          "importSpec": {
+            "modulePath": "ValidationResultIcon.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicValidationResultIcon.css",
+          "scheme": "blackbox"
+        },
+        {
+          "id": "BrV3uEHn-Yj",
+          "name": "Spacer",
+          "type": "managed",
+          "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+          "renderModuleFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicSpacer.tsx",
+          "importSpec": {
+            "modulePath": "Spacer.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicSpacer.css",
+          "scheme": "blackbox"
+        },
+        {
+          "id": "OyXAn4ZHyP8",
+          "name": "StreamlineIconsLink",
+          "type": "managed",
+          "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+          "renderModuleFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicStreamlineIconsLink.tsx",
+          "importSpec": {
+            "modulePath": "StreamlineIconsLink.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicStreamlineIconsLink.css",
+          "scheme": "blackbox"
+        },
+        {
+          "id": "MOaq4ic9l39",
+          "name": "Link",
+          "type": "managed",
+          "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+          "renderModuleFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicLink.tsx",
+          "importSpec": {
+            "modulePath": "Link.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicLink.css",
+          "scheme": "blackbox"
+        }
+      ],
+      "icons": [
+        {
+          "id": "VgMuHBXyhcE",
+          "name": "FlourishTopLeftsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicIcon__FlourishTopLeftsvg.tsx"
+        },
+        {
+          "id": "CtgddAEKG1A",
+          "name": "FlourishRightsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_cloudflare_ip_checker/PlasmicIcon__FlourishRightsvg.tsx"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "kHSf6cC0Tt8",
+        "name": "Screen",
+        "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+        "contextFilePath": "plasmic/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.44"
+}

@@ -1,0 +1,69 @@
+{
+  "props": [
+    {
+      "name": "green-500",
+      "type": "color",
+      "value": "rgb(72,187,120)",
+      "category": "color",
+      "meta": {
+        "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+        "id": "g3r3dAveTH_"
+      }
+    },
+    {
+      "name": "indigo-200",
+      "type": "color",
+      "value": "rgb(195,218,254)",
+      "category": "color",
+      "meta": {
+        "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+        "id": "cTGKVcwmv_E"
+      }
+    },
+    {
+      "name": "indigo-500",
+      "type": "color",
+      "value": "rgb(102,126,234)",
+      "category": "color",
+      "meta": {
+        "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+        "id": "_okdOZdutrn"
+      }
+    },
+    {
+      "name": "orange-500",
+      "type": "color",
+      "value": "rgb(237,137,54)",
+      "category": "color",
+      "meta": {
+        "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+        "id": "602_D_Ah5LK"
+      }
+    },
+    {
+      "name": "red-500",
+      "type": "color",
+      "value": "rgb(245,101,101)",
+      "category": "color",
+      "meta": {
+        "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+        "id": "bj--hre6MK6"
+      }
+    },
+    {
+      "name": "white",
+      "type": "color",
+      "value": "#ffffff",
+      "category": "color",
+      "meta": {
+        "projectId": "pVt2oR5EtQUEdy73p3KcxV",
+        "id": "z_GOp2djcBO"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
